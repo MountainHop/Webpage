@@ -178,7 +178,9 @@ h2 {
 
  .landing-page {
   border-width: 1rem !important;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
  }
 
  .landing-bottom-left,
