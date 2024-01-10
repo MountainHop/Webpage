@@ -178,6 +178,7 @@ h2 {
 
  .landing-page {
   border-width: 1rem !important;
+  -webkit-tap-highlight-color: transparent;
  }
 
  .landing-bottom-left,

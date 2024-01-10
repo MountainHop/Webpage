@@ -161,7 +161,8 @@
 /* Mobile */
 @media (max-width: 900px) {
   .gallery-page {
-    border-top: none;
+    border-top: none;  
+    -webkit-tap-highlight-color: transparent;
   }
 
   .gallery-carousel-container {
