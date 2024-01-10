@@ -43,7 +43,9 @@ a {
   text-decoration: none;
 }
 
-
+a:focus, button:focus {
+  outline: none;
+}
 
 @media (max-width: 900px) {
   body {
