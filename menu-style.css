@@ -1,0 +1,180 @@
+.menu-page {
+  background-color: #f5f5f5;
+  background-size: cover;
+
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  color: #222222;
+
+  
+}
+
+/* MOBILE */
+
+.menu-types {
+  height: auto;
+  width: 100%;
+}
+
+.menu-page-title {
+  margin: 0;
+  padding: 0;
+}
+.menu-title {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 3rem;
+  padding: 0;
+  padding-top: 1rem;
+  margin: 0;
+  color: #222222;
+}
+
+.menu-section {
+  color:#809b8e;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5rem;
+}
+
+.menu-main p {
+  font-size: 1rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.pumphreys-logo {
+  width: 80%;
+  padding-bottom: 2%;
+}
+
+.menu-page-bottom {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+/* Mobile Media Queries (vertical) */
+
+
+
+
+
+
+/* Desktop Media Queries */
+
+@media (min-width: 1280px) {
+
+  .menu-page {
+    height: auto !important;
+  }
+
+  .menu-types {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .menu-body {
+    height: auto;
+    display: flex;
+  }
+
+  .menu-main p {
+    font-size: 1.2rem;
+  }
+
+  .menu-page-bottom {
+    opacity: 1;
+    display: flex;
+    width: 100%;  
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+  }
+
+  .menu-page-bottom img {
+    width: 12%;
+    
+  }
+
+  .left {
+    border-left-style: dashed;
+    border-color: #222222;
+    border-left-width: 2px;
+    
+    height: auto;
+  }
+
+  .right {
+    border-right-style: dashed;
+    border-color: #222222;
+    border-right-width: 2px;
+    
+    height: auto;
+  }
+
+  .pumphreys-logo {
+    width: 60%;
+  }
+}
+
+
+
+
+@media (min-width: 1920px) {
+
+  .menu-page {
+    height: auto !important;
+  }
+
+  .menu-types {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+
+  .menu-body {
+    display: flex;
+    
+  }
+
+  .menu-page-bottom {
+    opacity: 1;
+    display: flex;
+    width: 100%;  
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+  }
+
+  .menu-page-bottom img {
+    width: 12%;
+    
+  }
+
+  .left {
+    border-left-style: dashed;
+    border-color: #222222;
+    border-left-width: 2px;
+    
+    height: 25rem;
+  }
+
+  .pumphreys-logo {
+    width: 60%;
+  }
+}
+
+
+
+/* Tablet Media Queries */

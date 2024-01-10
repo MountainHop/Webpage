@@ -1,0 +1,32 @@
+
+
+.carousel-container {
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+.name {
+  font-style: italic;
+}
+
+.quote {
+  color: #c93232;
+}
+
+

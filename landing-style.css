@@ -1,0 +1,300 @@
+
+
+
+.landing-page {
+  background-image: url(media/images/landing-page-background.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-bottom: solid #809b8e 1rem;
+}
+
+
+
+.landing-top {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
+  
+  position: relative;
+}
+
+.landing-middle {
+  height: 40%;
+  width: 100%;
+ 
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.landing-bottom {
+  height: 4%;
+  width: 100vw;
+
+  z-index: 50;
+  
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  background-color: #809b8e;
+  
+}
+
+.landing-bottom-left {
+  height: 100%;
+  width: 30%;
+
+
+  display: flex;
+  align-items: center;
+}
+
+.landing-bottom-right {
+  height: 100%;
+  width: 30%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  right: 50px;
+}
+
+.landing-bottom-middle {
+  height: 100%;
+  width: 40%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.location-icon {
+  width: 3.75rem;
+  margin-bottom: -0.3125rem;
+  margin-right: -1rem;
+}
+
+.landing-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+}
+
+
+h1 {
+  font-size: 5.625rem;
+  font-weight: 400;
+  font-family: "Dancing Script", sans-serif;
+  color: #e63130;
+
+  position: absolute;
+  bottom: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  width: 100%;
+  height: 0.25rem;
+  background-color: #809b8e;
+}
+
+.phone-icon {
+  width: 2.25rem;
+}
+
+.phone-hidden {
+  opacity: 1;
+  position: relative;
+  bottom: -100px;
+}
+
+.sally {
+  color: #e63130;
+}
+
+/* MOST HANDHELD DEVICES */
+@media (max-width: 900px) {
+  .landing-bottom-left p,
+  .location-icon {
+    opacity: 0;
+  }
+}
+
+
+@media (max-width: 900px) {
+
+ .landing-page h1 {
+  font-size: 5rem;
+  bottom: -0.8rem;
+ }
+
+ .landing-page h2 {
+  font-size: 2rem;
+ }
+
+ .testimonial p{
+  font-size: 0.85rem;
+ }
+
+ .landing-bottom-right {
+  opacity: 1;
+  width: auto;
+ }
+
+ .landing-bottom-middle {
+  opacity: 0;
+ }
+
+ .landing-bottom {
+  position: fixed;
+  bottom: 0;
+ }
+
+ .landing-page {
+  border-width: 1rem !important;
+ }
+
+ .landing-bottom-left,
+ .landing-bottom-middle,
+ .landing-bottom-right {
+    transform: translateX(-50%);
+ }
+
+ .landing-bottom-right {
+    width: 100%;
+    position: unset;
+    justify-content: center;
+ }
+
+ .landing-bottom-right p {
+  font-size: 1rem;
+  font-family:  sans-serif;
+ }
+
+}
+
+
+/* SMALLER DEVICES */
+@media (min-width: 319px) and (max-width: 400px) {
+  body {
+    width: 100vw;
+    min-width: auto;
+  }
+
+  .testimonial p {
+    font-size: 0.675rem;
+  }
+
+  .landing-bottom-middle p {
+    font-size: 0.85rem;
+  }
+
+  .landing-bottom {
+    position: fixed;
+    bottom: 0;
+   }
+   
+   .landing-page {
+    border-width: 0.5rem !important;
+   }
+
+   .landing-bottom-left,
+   .landing-bottom-middle,
+   .landing-bottom-right {
+      transform: translateX(-50%);
+   }
+  
+   .landing-bottom-right {
+      width: 100%;
+      position: unset;
+      justify-content: center;
+   }
+  
+   .landing-bottom-right p {
+    font-size: 0.85rem !important;
+    font-family: sans-serif;
+   }
+}
+
+
+/* SMALLER DEVICES */
+@media (max-width: 320px) {
+  body {
+    width: 100vw;
+    min-width: auto;
+  }
+
+  .testimonial p {
+    font-size: 0.675rem;
+  }
+
+  .landing-bottom-middle p {
+    font-size: 0.85rem;
+  }
+
+  .landing-bottom {
+    position: fixed;
+    bottom: 0;
+   }
+   
+   .landing-page {
+    border-width: 0.5rem !important;
+   }
+
+   .landing-bottom-left,
+   .landing-bottom-middle,
+   .landing-bottom-right {
+      transform: translateX(-50%);
+   }
+  
+   .landing-bottom-right {
+      width: 100%;
+      position: unset;
+      justify-content: center;
+   }
+  
+   .landing-bottom-right p {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+   }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 835px) {
+  .landing-bottom-left,
+   .landing-bottom-middle,
+   .landing-bottom-right {
+      transform: translateX(-38%);
+   }
+}
+
+
+

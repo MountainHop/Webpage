@@ -1,0 +1,175 @@
+.about-page {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  
+  color: #222222;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  
+}
+
+.about-title {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5%;
+
+  text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 3rem;
+  color: #809b8e;
+}
+
+
+.about-image {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  
+  margin-inline: auto;
+  
+
+  border: solid #809b8e 3px;
+}
+
+.about-picture {
+  scale: 31%;
+  border: solid #809b8e 5px;
+  
+}
+
+.about-text {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.about-text p {
+  font-size: 1rem;
+}
+
+.about-background {
+  display: none;
+}
+
+.important {
+  width: 100%;
+  height: auto;
+}
+
+.important p {
+  color: #e63130;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* LARGE DESKTOP */
+
+@media (min-width: 1200px) {
+  .about-page {
+    align-items: center;
+    position: relative;
+    background-image: url(media/images/background-image.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .about-background {
+    position: absolute;
+    width: 100%;
+    bottom: 1.8rem;
+    z-index: -100;
+    display: block;
+  }
+
+  .about-title {
+    text-align: start;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 40rem;
+    
+  }
+
+  .about-text {
+    width: 40rem;
+    height: 20%;
+    
+    
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    
+  }
+
+
+  .about-text p {
+    padding-inline: 0;
+    font-size: 1.2rem;
+  }
+  
+  .about-image {
+    display: none;
+  }
+
+  .important {
+    padding-top: 5rem;
+    width: 40rem;
+  }
+
+  .important p {
+    font-size: 1.2rem;
+  }
+
+
+}
+
+/* Medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-page {
+    align-items: center;
+  }
+
+  .about-background {
+    position: absolute;
+    width: 100%;
+    bottom: 9rem;
+    z-index: -100;
+    display: block;
+  }
+
+  .about-title {
+    text-align: start;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width:70%;
+    
+  }
+
+  .about-text {
+    width: 70%;
+    height: 20%;
+    
+    
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    
+  }
+
+
+  .about-text p {
+    padding-inline: 0;
+  }
+  
+  .about-image {
+    display: none;
+  }
+}
